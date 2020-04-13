@@ -6,6 +6,9 @@
 xidfile="$HOME/tmp/tabbed-surf.xid"
 uri=""
 
+[ -d "$HOME/tmp/"] || mkdir "$HOME/tmp/"
+
+
 if [ "$#" -gt 0 ];
 then
 	uri="$1"
